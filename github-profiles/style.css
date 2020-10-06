@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  margin: 0;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 40px;
+
+}
+
+.profile-container{
+    display: flex;
+    background-color: rgba(87, 31, 87, 0.755);
+    padding: 2rem;
+    border-radius: 10px;
+    /* box-shadow: 0 0 0 0 black; */
+    box-shadow: 10px 10px 30px;
+}
+
+.profile-image {
+   align-self: center;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+
+.profile-info {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    max-width: 400px;
+}
+
+.profile-info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-info ul li{
+   margin: 16px;
+}
+
+form {
+    padding: 2rem;
+    background-color: #7d5fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    align-self: center;
+}
+
+.searchInput {
+    padding: 0.4rem;
+    background-color: lightcyan;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.searchInput:focus{
+outline: none;
+background-color: ivory;
+}
+
+.repo{
+    margin: 10px;
+    padding: 10px;
+    background-color: #7d5fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#repos{
+    display: flex;
+    flex-wrap: wrap;
+}
+

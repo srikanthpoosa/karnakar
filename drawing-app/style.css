@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#canvas {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tool-box {
+  display: flex;
+  padding: 0.5rem 0;
+  background-color: rebeccapurple;
+  width: 803px;
+  cursor: pointer;
+}
+
+.tool-box button {
+  padding: 0.5rem;
+  margin-left: 20px;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  width: 35px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.size {
+  background-color: white;
+  padding: 0.5rem;
+  margin-left: 20px;
+  border-radius: 4px;
+  font-size: 1.4rem;
+}
+
+#color {
+  padding: 0.5rem;
+  margin-left: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tool-box button:last-child {
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}

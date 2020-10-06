@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7BDAF3;
+    /* background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%); */
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 5rem;
+
+}
+
+.note {
+width: 400px;
+height: 400px;
+background-color: ivory;
+position: relative;
+margin: 20px;
+box-shadow: 1px 1px 10px 0px black;
+}
+
+.note .tools{
+    background-color: #9EC862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.tools button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.textarea {
+    height: 363px;
+    width:  400px;
+    outline: none;
+    background-color: white;
+    font-family: inherit;
+    border:none;
+    position: absolute;
+}
+
+.addNote {
+    background-color: #9EC862 ;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
