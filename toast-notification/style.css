@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+body{
+    font-family: 'Cambay', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    position: fixed;
+    right: 0;
+    top:0;
+    left: 0;
+    bottom:0;
+    padding: 2rem;
+}
+
+.toast {
+    background-color: rebeccapurple;
+    padding: 1rem;
+    font-family: inherit;
+    color: white;
+    margin: 20px;
+    border-radius:8px;
+}
+
+#btn {
+    border: none;
+    font-family: inherit;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+body{
+    font-family: 'Cambay', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+ 
+}
+
+.images
+{
+display: flex;
+transition: 0.9s ease-in;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}

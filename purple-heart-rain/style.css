@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+body{
+    font-family: 'Cambay', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hearts{
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+.heart {
+    position: fixed;
+    font-size: 5rem;
+    top: -1vh;
+    transform: translateY(105vh);
+    animation: fall 2s linear backwards;
+}
+@keyframes fall {
+    to {
+        transform: translateY(-1vh);
+    }
+}

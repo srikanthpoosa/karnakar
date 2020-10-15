@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+body{
+    font-family: 'Cambay', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contents {
+    padding: 8rem;
+    max-width: 672px;
+}
+
+.toggle{
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+
+}

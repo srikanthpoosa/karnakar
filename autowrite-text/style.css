@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+body{
+    font-family: 'Cambay', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+}
+
+#word {
+    color: white;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
