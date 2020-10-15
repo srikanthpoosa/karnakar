@@ -33,6 +33,7 @@ function drawLine(x1, y1, x2, y2) {
 canvas.addEventListener("mousemove", (e) => {
   const x2 = e.offsetX;
   const y2 = e.offsetY;
+  console.log('x1=',x2,'y1=',y2);
   if (clicked) {
     drawCircle(x2, y2);
     drawLine(x, y, x2, y2);
@@ -45,6 +46,7 @@ canvas.addEventListener("mousedown", (e) => {
   clicked = true;
   x = e.offsetX;
   y = e.offsetY;
+  console.log('x=',x,'y=',y);
 });
 
 canvas.addEventListener("mouseup", () => {

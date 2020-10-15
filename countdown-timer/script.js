@@ -5,7 +5,7 @@ const secsEl = document.getElementById("sec");
 
 function getDifferenceInTimes() {
   var today = new Date().getTime();
-  var newyear = new Date("22 june 2021").getTime();
+  var newyear = new Date("1 january 2021").getTime();
   var difference = newyear - today;
 
   days = Math.floor(difference / (1000 * 60 * 60 * 24));

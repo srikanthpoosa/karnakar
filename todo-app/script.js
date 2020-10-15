@@ -12,10 +12,10 @@ if (lsTasks) {
 }
 
 formEl.addEventListener("submit", (e) => {
-    e.preventDefault();
+     //e.preventDefault();
     const todos = inputEl.value;
     addToList(todos);
-    inputEl.value = "";
+    // inputEl.value = "";
 });
 
 function addToList(todos) {
