@@ -4,6 +4,7 @@ const todosEl = document.getElementById("todos");
 const lsTasks = JSON.parse(localStorage.getItem("tasks"));
 
 console.log("lsTasks", lsTasks);
+//TESTING TERMINAL PREFIX
 
 if (lsTasks) {
     lsTasks.forEach((task) => {
