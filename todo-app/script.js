@@ -5,6 +5,7 @@ const lsTasks = JSON.parse(localStorage.getItem("tasks"));
 
 console.log("lsTasks", lsTasks);
 //TESTING TERMINAL PREFIX
+//Second Test
 
 if (lsTasks) {
     lsTasks.forEach((task) => {
